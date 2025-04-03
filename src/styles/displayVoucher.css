@@ -1,0 +1,35 @@
+.display-voucher-wrapper {
+    background-color: #fffbd2;
+    min-height: 100vh;
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: black;
+  }
+  
+  .display-title {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #014421;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .voucher-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  
+  .voucher-table th,
+  .voucher-table td {
+    border: 1px solid #888;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .voucher-table th {
+    background-color: #e0f8e0;
+  }
+  

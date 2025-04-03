@@ -1,0 +1,51 @@
+.inventory-info-wrapper {
+  background-color: #fffbd2;
+  min-height: 100vh;
+  padding: 40px;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  color: black;
+}
+
+.tally-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.inventory-box {
+  background-color: #e4ffe4;
+  border: 1px solid #888;
+  padding: 20px;
+  width: 320px;
+}
+
+.menu-group {
+  margin-bottom: 20px;
+}
+
+.menu-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.submenu-item {
+  padding-left: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.submenu-item:hover {
+  text-decoration: underline;
+}
+
+.submenu-item.disabled {
+  color: #aaa;
+  pointer-events: none;
+}

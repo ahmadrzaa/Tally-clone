@@ -1,0 +1,81 @@
+/* src/styles/selectCompany.css */
+
+.select-company-wrapper {
+    background-color: #fff8dc;
+    min-height: 100vh;
+    padding: 40px 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+  }
+  
+  .select-company-wrapper h2 {
+    margin-bottom: 25px;
+    color: #014421;
+    font-size: 20px;
+  }
+  
+  .company-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .company-item {
+    border: 1px solid #aaa;
+    background-color: #e3ffe3;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .company-info {
+    flex: 1;
+  }
+  
+  .company-info img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    background-color: white;
+  }
+  
+  .company-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 30px;
+  }
+  
+  .company-buttons button {
+    padding: 6px 14px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+  }
+  
+  .company-buttons button:first-child {
+    background-color: #014421;
+    color: white;
+  }
+  
+  .company-buttons button:last-child {
+    background-color: #ffdddd;
+    color: red;
+    border: 1px solid red;
+  }
+  
+  .create-new-btn {
+    margin-top: 30px;
+    padding: 8px 20px;
+    background-color: #014421;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,34 @@
+.billing-wrapper {
+    background: #fff8dc;
+    min-height: 100vh;
+    padding: 40px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .billing-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .billing-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+  }
+  
+  .billing-form input {
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .submit-btn {
+    padding: 10px;
+    background-color: #006400;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  

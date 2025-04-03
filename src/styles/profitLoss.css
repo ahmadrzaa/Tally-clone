@@ -1,0 +1,49 @@
+/* src/styles/profitLoss.css */
+.pl-wrapper {
+    background-color: #fff8dc;
+    min-height: 100vh;
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+  }
+  
+  .pl-header {
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #014421;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .company-bar {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .pl-columns {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+  }
+  
+  .column {
+    width: 40%;
+    background-color: #fce4e4;
+    padding: 20px;
+    border: 1px solid #aaa;
+  }
+  
+  .column-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #666;
+    padding-bottom: 5px;
+  }
+  
+  .entry {
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+  

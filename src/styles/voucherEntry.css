@@ -1,0 +1,50 @@
+.voucher-wrapper {
+    background-color: #fffbd2;
+    min-height: 100vh;
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: black;
+  }
+  
+  .voucher-title {
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #014421;
+    color: white;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .voucher-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 10px;
+  }
+  
+  .voucher-form label {
+    font-weight: 500;
+  }
+  
+  .voucher-form input,
+  .voucher-form select {
+    padding: 6px;
+    border: 1px solid #888;
+    background-color: #fcffe4;
+  }
+  
+  .submit-btn {
+    margin-top: 20px;
+    background-color: #014421;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color: #026636;
+  }
+  

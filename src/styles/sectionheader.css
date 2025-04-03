@@ -1,0 +1,52 @@
+/* .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #014421;
+    color: white;
+    padding: 4px 12px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    height: 26px;
+  }
+  
+  .section-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  } */
+  
+
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00481f; /* Dark green background */
+    color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 8px;
+  }
+  
+  .section-title {
+    flex: 1;
+  }
+  
+  .section-controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .close-btn {
+    background-color: white;
+    color: black;
+    padding: 2px 6px;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,102 @@
+/* src/styles/accountsInfo.css */
+
+.accounts-info-wrapper {
+  background-color: #fffbd2;
+  min-height: 100vh;
+  padding: 40px;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  color: black;
+}
+
+.tally-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.section-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.accounts-box {
+  background-color: #e4ffe4;
+  border: 1px solid #888;
+  padding: 20px;
+  width: 320px;
+  margin-bottom: 30px;
+}
+
+.menu-group {
+  margin-bottom: 20px;
+}
+
+.menu-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.submenu-item {
+  padding-left: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.submenu-item:hover {
+  text-decoration: underline;
+}
+
+.submenu-item.disabled {
+  color: #aaa;
+  pointer-events: none;
+}
+
+/* ======================= Ledger Display Section ======================= */
+
+.ledger-display-box {
+  background-color: #f9fff9;
+  border: 1px solid #aaa;
+  padding: 15px 20px;
+  width: 520px;
+  font-size: 14px;
+}
+
+.ledger-display-box h4 {
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+.ledger-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ledger-item {
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.ledger-item:last-child {
+  border-bottom: none;
+}
+
+.ledger-actions {
+  margin-top: 6px;
+  display: flex;
+  gap: 10px;
+}
+
+.ledger-actions button {
+  font-size: 12px;
+  padding: 4px 10px;
+  border: 1px solid #333;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.ledger-actions button:hover {
+  background-color: #ddd;
+}

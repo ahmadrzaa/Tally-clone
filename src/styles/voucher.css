@@ -1,0 +1,53 @@
+/* src/styles/voucher.css */
+
+.voucher-type-wrapper {
+    background-color: #fffbd2;
+    min-height: 100vh;
+    padding: 30px 50px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+  }
+  
+  .voucher-header {
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #014421;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .voucher-form .row {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    font-size: 14px;
+  }
+  
+  .voucher-form label {
+    width: 280px;
+  }
+  
+  .voucher-form input[type="text"],
+  .voucher-form input[type="number"],
+  .voucher-form input[type="checkbox"] {
+    flex: 1;
+    padding: 4px 6px;
+    font-size: 14px;
+  }
+  
+  .section-title {
+    font-weight: bold;
+    margin: 10px 0;
+    text-decoration: underline;
+  }
+  
+  .split-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+  
+  .section {
+    flex: 1;
+  }
+  

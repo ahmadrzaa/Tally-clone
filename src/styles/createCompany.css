@@ -1,0 +1,86 @@
+/* src/styles/createCompany.css */
+
+.company-creation-wrapper {
+    background-color: #e6ffe6; /* pale greenish background */
+    min-height: 100vh;
+    padding: 30px 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+  }
+  
+  .company-form {
+    max-width: 950px;
+    margin: auto;
+    padding: 25px 40px;
+    background-color: #d4f5d4; /* mint panel like Tally */
+    border: 1px solid #555;
+    font-size: 14px;
+  }
+  
+  .form-title-bar {
+    background-color: #014421;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 15px;
+    text-align: left;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  
+  .form-row label {
+    flex: 0 0 220px;
+    font-weight: 500;
+    color: #111;
+  }
+  
+  .form-row input,
+  .form-row select,
+  .form-row textarea {
+    flex: 1;
+    padding: 5px 8px;
+    font-size: 14px;
+    border: 1px solid #888;
+    background-color: #f4fff4;
+    outline: none;
+    resize: none;
+    font-family: inherit;
+  }
+  
+  .form-row textarea {
+    height: 60px;
+  }
+  
+  .form-row span {
+    flex: 1;
+    font-weight: bold;
+    color: #333;
+    padding-left: 4px;
+  }
+  
+  .form-row.center {
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  button[type='submit'] {
+    padding: 7px 20px;
+    background-color: #014421;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    min-width: 160px;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #026636;
+  }
+  

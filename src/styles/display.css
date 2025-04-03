@@ -1,0 +1,36 @@
+.display-wrapper {
+    background-color: #fff8dc;
+    min-height: 100vh;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: black;
+  }
+  
+  .display-company {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .section {
+    margin-top: 30px;
+  }
+  
+  .section-title {
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+  }
+  
+  ul {
+    padding-left: 20px;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 6px;
+    font-size: 14px;
+    border-bottom: 1px dotted #888;
+    padding-bottom: 4px;
+  }
+  

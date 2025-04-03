@@ -1,0 +1,26 @@
+.top-bar {
+    background-color: #014421; /* closer to Tally dark green */
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 12px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    height: 30px;
+    width: 100vw;
+    box-sizing: border-box;
+  }
+  
+  .left-options, .right-options {
+    display: flex;
+    align-items: center;
+  }
+  
+  .left-options span,
+  .right-options span {
+    margin-right: 24px;
+    white-space: nowrap;
+  }
+  

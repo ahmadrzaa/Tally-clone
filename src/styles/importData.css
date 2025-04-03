@@ -1,0 +1,43 @@
+/* src/styles/importData.css */
+.import-wrapper {
+    background-color: #fff8dc;
+    min-height: 100vh;
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+  }
+  
+  .import-header {
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #014421;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .company-bar {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .import-box {
+    background-color: #e4ffe4;
+    border: 1px solid #888;
+    padding: 20px;
+    width: 320px;
+    margin: auto;
+  }
+  
+  .import-option {
+    font-size: 14px;
+    padding: 8px;
+    border-bottom: 1px dashed #999;
+    cursor: pointer;
+  }
+  
+  .import-option:hover {
+    background-color: #c3f9c3;
+  }
+  

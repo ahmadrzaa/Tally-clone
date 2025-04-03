@@ -1,0 +1,59 @@
+/* src/styles/startup.css */
+
+.startup-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    padding-top: 4px;
+    flex-grow: 1; /* Let it fill */
+  }
+  
+  .startup-box {
+    width: 1400px; /* or 900px */
+    max-width: 100%;
+    border: 1px solid #444;
+    background-color: #eac9b8;
+    font-size: 14px;
+    padding: 10px;
+    height: 430px;
+  }
+  
+  
+  .startup-title-bar {
+    background-color: #006a6a;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 1px 0;
+    margin-bottom: 10px;
+  }
+  
+  .startup-content p {
+    margin: 6px 0;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .note {
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 20px;
+  }
+  .bottom-bar {
+    background-color: #999;
+    color: white;
+    font-weight: bold;
+    padding: 2px 6px;  /* smaller padding */
+    font-size: 13px;
+    margin-top: 6px;
+  }
+  
+  
+  .clickable-option {
+    cursor: pointer;
+    text-decoration: none;
+    color: #d10000;
+  }
+  

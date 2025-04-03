@@ -1,0 +1,66 @@
+.voucher-print-wrapper {
+    padding: 40px;
+    background-color: #fffdd0;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+  }
+  
+  .voucher-company {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .print-btn {
+    background-color: darkgreen;
+    color: white;
+    padding: 10px 24px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .print-btn:hover {
+    background-color: #006400;
+  }
+  
+  .voucher-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: white;
+  }
+  
+  .voucher-table th,
+  .voucher-table td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+  }
+  
+  .voucher-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  @media print {
+    .print-btn {
+      display: none;
+    }
+  
+    .voucher-print-wrapper {
+      padding: 20mm;
+      background-color: white !important;
+    }
+  
+    .voucher-table th,
+    .voucher-table td {
+      font-size: 12px;
+      padding: 6px;
+    }
+  }
+    

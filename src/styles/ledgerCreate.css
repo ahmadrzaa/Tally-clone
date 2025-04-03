@@ -1,0 +1,104 @@
+/* src/styles/ledgerCreate.css */
+
+.ledger-wrapper {
+  background-color: #fffbd2;
+  min-height: 100vh;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  color: black;
+}
+
+.ledger-title {
+  background-color: #014421;
+  color: white;
+  padding: 8px 20px;
+  font-weight: bold;
+  font-size: 14px;
+  border-bottom: 1px solid #000;
+}
+
+.company-name {
+  text-align: center;
+  font-weight: bold;
+  background-color: #f3f3f3;
+  padding: 6px;
+  font-size: 13px;
+  border-bottom: 1px solid #aaa;
+}
+
+.ledger-form-tally {
+  padding: 20px;
+}
+
+.ledger-top-section {
+  display: flex;
+  gap: 30px;
+}
+
+.ledger-left,
+.ledger-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-row label {
+  width: 180px;
+  font-size: 13px;
+}
+
+.form-row input,
+.form-row select {
+  flex: 1;
+  padding: 4px;
+  font-size: 13px;
+  border: 1px solid #aaa;
+  background-color: white;
+}
+
+.subheading {
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+.ledger-bottom {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  gap: 10px;
+}
+
+.ledger-bottom label {
+  width: 260px;
+  font-weight: bold;
+}
+
+.ledger-bottom input {
+  flex: 1;
+  padding: 4px;
+  font-size: 13px;
+  border: 1px solid #aaa;
+}
+
+.accept-btn-row {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.accept-btn {
+  padding: 8px 60px;
+  font-weight: bold;
+  background-color: #014421;
+  color: white;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+}

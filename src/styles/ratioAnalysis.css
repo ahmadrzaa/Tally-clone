@@ -1,0 +1,35 @@
+/* src/styles/ratioAnalysis.css */
+.ratio-analysis-wrapper {
+    background-color: #fff8dc;
+    min-height: 100vh;
+    padding: 40px;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: black;
+  }
+  
+  .ratio-header {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #014421;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .company-bar {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .ratio-block {
+    background-color: #e9fbe9;
+    padding: 20px;
+    border: 1px solid #999;
+    width: 400px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  

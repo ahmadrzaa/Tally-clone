@@ -1,0 +1,30 @@
+.reports-wrapper {
+    background-color: #fffef2;
+    padding: 40px;
+    font-family: Tahoma, sans-serif;
+    color: #222;
+    min-height: 100vh;
+  }
+  
+  .reports-wrapper h2 {
+    margin-bottom: 10px;
+    color: #004d00;
+  }
+  
+  .company-name {
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+  
+  .report-section {
+    margin-bottom: 30px;
+    background: #f2ffe6;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .report-section h3 {
+    margin-bottom: 10px;
+    color: #006600;
+  }
+  

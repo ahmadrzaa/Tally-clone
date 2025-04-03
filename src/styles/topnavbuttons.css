@@ -1,0 +1,44 @@
+.top-nav-wrapper {
+    display: flex;
+    width: 100%;
+    background-color: #c8e0c8;
+    box-sizing: border-box;
+    border-bottom: 2px solid #014421;
+  }
+  
+  .top-nav-left {
+    display: flex;
+    flex: 1;
+  }
+  .nav-btn {
+    padding: 4px 10px;
+    border: 1px solid #444;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    font-size: 13px;
+    color: #222;
+    background-color: #c8e0c8;
+    height: 30px;
+    flex-grow: 1;
+    width: 100%;              /* ✅ make full inside its flex-box */
+    min-width: 110px;         /* ✅ increase slightly */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  
+  .top-nav-right {
+    background-color: #014421;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 12px;
+    min-width: 200px;
+  }
+  
+  .gateway-btn {
+    color: cyan;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  

@@ -1,0 +1,29 @@
+.layout-wrapper {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFF8DC;
+    overflow: hidden;
+  }
+  
+  
+  /* .left-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+   */
+
+   .left-area {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .center-body {
+    flex: 1;
+    background-color: #FFF8DC;
+  }
+  

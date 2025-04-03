@@ -1,0 +1,34 @@
+
+/* Ensure full screen height from layout level */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.layout-wrapper {
+  display: flex;
+  height: 100vh; /* Ensures the right panel stretches full height */
+}
+
+.right-panel {
+    width: 170px;
+    background-color: #004726;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .right-box {
+    height: 40px;
+    background-color: #0c4c3c;
+    border-bottom: 1px solid #007055;
+    color: cyan;
+    font-weight: bold;
+    padding: 6px;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    height: 50px; /* increase this */
+  }
+  

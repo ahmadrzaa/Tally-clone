@@ -1,0 +1,31 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff8dc;
+  }
+  
+  .login-box {
+    background: #e0e0e0;
+    padding: 30px;
+    border: 1px solid #333;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .login-box input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  .login-box button {
+    width: 100%;
+    padding: 10px;
+    background-color: #014421;
+    color: white;
+    border: none;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,35 @@
+.voucher-list-wrapper {
+    background-color: #fffce5;
+    padding: 40px;
+    min-height: 100vh;
+    font-family: Tahoma, sans-serif;
+    color: #000;
+  }
+  
+  .voucher-list-wrapper h2 {
+    margin-bottom: 10px;
+    color: #003300;
+  }
+  
+  .company-name {
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .voucher-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .voucher-table th,
+  .voucher-table td {
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    text-align: left;
+  }
+  
+  .voucher-table th {
+    background-color: #d8f0d8;
+  }
+  

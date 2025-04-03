@@ -1,0 +1,101 @@
+.stock-outer {
+    background-color: #fff0dc;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    color: black;
+  }
+  
+  .stock-top-header {
+    background-color: #014421;
+    color: white;
+    padding: 8px 12px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .company-title {
+    text-align: center;
+    padding: 6px;
+    font-weight: bold;
+    background: #eee;
+  }
+  
+  .stock-layout {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .left-block,
+  .right-block {
+    width: 50%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .row label {
+    width: 180px;
+    font-size: 13px;
+  }
+  
+  .row input {
+    flex: 1;
+    padding: 4px;
+    font-size: 13px;
+    background-color: #fffef2;
+    border: 1px solid #ccc;
+  }
+  
+  .bold-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .underline {
+    text-decoration: underline;
+  }
+  
+  .indent-value {
+    padding-left: 20px;
+    font-size: 13px;
+  }
+  
+  .opening-balance-row {
+    width: 100%;
+    padding: 20px;
+    font-size: 13px;
+  }
+  
+  .input-grid {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+  }
+  
+  .input-grid input {
+    width: 100px;
+    padding: 4px;
+  }
+  
+  .value-box {
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 13px;
+  }
+  
+  .submit-btn {
+    margin: 20px;
+    padding: 8px 20px;
+    background-color: #014421;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+  
