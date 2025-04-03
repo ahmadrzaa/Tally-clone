@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Tally-clone/static/css/main.eb960a86.css",
-    "main.js": "/Tally-clone/static/js/main.822d194c.js",
+    "main.js": "/Tally-clone/static/js/main.41e8886b.js",
     "index.html": "/Tally-clone/index.html",
     "main.eb960a86.css.map": "/Tally-clone/static/css/main.eb960a86.css.map",
-    "main.822d194c.js.map": "/Tally-clone/static/js/main.822d194c.js.map"
+    "main.41e8886b.js.map": "/Tally-clone/static/js/main.41e8886b.js.map"
   },
   "entrypoints": [
     "static/css/main.eb960a86.css",
-    "static/js/main.822d194c.js"
+    "static/js/main.41e8886b.js"
   ]
 }
