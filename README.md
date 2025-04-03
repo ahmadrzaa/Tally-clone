@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# 📘 Tally Clone – Accounting Software (React + SQLite Local Setup)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a **Tally-inspired accounting application** built using **React.js**, featuring a UI similar to Tally.ERP 9, with **keyboard + mouse navigation**, local data handling, and printable reports.
 
-## Available Scripts
+🔗 **Live Demo:** [https://ahmadrzaa.github.io/Tally-clone](https://ahmadrzaa.github.io/Tally-clone)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## ✨ Screenshots
+![Screenshot 2025-04-03 115136](https://github.com/user-attachments/assets/017b7d93-cdf2-49ac-bcb4-0c934e57ca4d)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🔐 Login Page
+![Screenshot 2025-04-03 115203](https://github.com/user-attachments/assets/1953cd14-d002-4498-a87d-75a7c4165dd3)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### 🏠 Dashboard
+![Screenshot 2025-04-03 115217](https://github.com/user-attachments/assets/8cbb9c35-b743-4aa9-89ed-0217c2d35527)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+### 🧾 Ledger & Vouchers
+![Screenshot 2025-04-03 115345](https://github.com/user-attachments/assets/834b87a7-dffb-4ba7-9869-3a6ddf641ab1)
+![Screenshot 2025-04-03 115352](https://github.com/user-attachments/assets/a29b8e28-1383-4753-afe7-82d4ee3593f4)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 📈 Profit & Loss / Balance Sheet
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🧾 Create Company
+![Screenshot 2025-04-03 115231](https://github.com/user-attachments/assets/ca819a81-74bc-4d88-99e8-e3ecff9f593d)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🚀 Features
 
-## Learn More
+### 📂 Company Management
+- Create, select, and delete companies
+- Name, address, country, currency setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🔐 Authentication
+- Login with:
+  - **Username:** `admin`
+  - **Password:** `1234`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 📊 Accounting Masters
+- Create ledgers with opening balance and group selection
 
-### Code Splitting
+### 📦 Inventory Info
+- Add stock items
+- Create inventory vouchers
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 💼 Transactions
+- Payment, Receipt, Journal, and other vouchers
 
-### Analyzing the Bundle Size
+### 📑 Reports
+- Ledger view
+- Profit & Loss
+- Balance Sheet
+- Ratio Analysis
+- Stock Summary
+- PDF downloads
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 🖨️ PDF & Print
+- Print or export voucher reports
 
-### Making a Progressive Web App
+### 🖱️ Keyboard/Mouse Navigation
+- `F1`, `F2`, etc. for faster usage
+- Mouse UI supported
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🧪 Local Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/ahmadrzaa/Tally-clone.git
+cd Tally-clone
+npm install
+npm start
