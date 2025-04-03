@@ -2,7 +2,7 @@
 
 This is a **Tally-inspired accounting application** built using **React.js**, featuring a UI similar to Tally.ERP 9, with **keyboard + mouse navigation**, local data handling, and printable reports.
 
-🔗 **Live Demo:** [https://ahmadrzaa.github.io/Tally-clone](https://ahmadrzaa.github.io/Tally-clone)
+🔗 **Live Demo:** https://ahmadrzaa.github.io/Tally-clone/
 
 ---
 
